@@ -1,0 +1,25 @@
+{
+  "commands": {
+    "beg": {
+      "interval": null,
+      "channel": ""
+    },
+    "search": {
+      "interval": null,
+      "channel": "",
+      "whitelistedOptions": []
+    },
+    "pm": {
+      "interval": null,
+      "channel": ""
+    },
+    "fish": {
+      "interval": null,
+      "channel": ""
+    }
+  },
+  "whitelistedGuild": "",
+  "dankMemerID": "270904126974590976",
+  "wpm": null,
+  "token": ""
+}
