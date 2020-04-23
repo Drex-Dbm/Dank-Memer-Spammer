@@ -7,7 +7,6 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
 const client = new Discord.Client();
-require("dotenv").config()
 let channels = {};
 
 function sendMessage(channel, content) {
