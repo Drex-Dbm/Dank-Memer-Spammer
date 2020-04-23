@@ -79,7 +79,7 @@ client.on("message", async message => {
     return;
   }
   if (message.content.endsWith("**Candy**")) {
-    return sendMessage(channels.auto, "pls use candy");
+    return sendMessage(channels.other, "pls use candy");
   }
   if (
     message.content.startsWith("**__What type of meme do you want to post?__**")
@@ -89,7 +89,7 @@ client.on("message", async message => {
   if (
     message.content === "oi you need to buy a laptop in the shop to post memes"
   ) {
-    return sendMessage(channels.auto, "pls buy laptop");
+    return sendMessage(channels.other, "pls buy laptop");
   }
   if (message.content.search(/Type|typing/) !== -1) {
     let split = message.content.split(/Type |typing /);
