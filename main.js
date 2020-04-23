@@ -47,7 +47,6 @@ client.on("message", async message => {
     message.author.id !== config.dankMemerID
   )
     return;
-  if (sleeping) return;
   if (
     message.content.startsWith(
       "Where do you want to search? Pick from the list below and type it in chat."
