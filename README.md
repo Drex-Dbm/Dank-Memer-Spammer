@@ -2,6 +2,8 @@
 
 A bot that automatically uses Dank Memer commands!
 
+# **WARNING: THIS COULD GET YOUR ACCOUNT DELETED/BANNED. USE AT YOUR OWN RISK!!!!!!**
+
 # Setup
 
 1. Download [node.js](https://nodejs.org/en/) **v12 and above required**
